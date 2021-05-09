@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.seo {
+    color: #d9dcd6;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 600px;
+    width: 100%;
+    max-height: 700px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 10px;
+}
+
+.header h1{
+    color: grey;
+    position: relative;
+    display: inline;
+    padding-top: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.search-engine-optimization{
+    color: white;
+    background-color: steelblue;
+    position: relative;
+    display: block;
+    padding:10px;
+    width: auto;
+    border: 20px solid gray;
+    margin: 10px;
+}
+
+.online-reputation-management{
+    color: white;
+    background-color: steelblue;
+    position:relative;
+    display: block;
+    padding: 10px; 
+    width: auto;
+    border: 20px solid gray ;
+    margin: 10px;
+ }
+
+.social-media-marketing{
+    color: white;
+    background-color: steelblue;
+    position:relative;
+    display: block;
+    padding: 10px; 
+    width: auto;
+    border: 20px solid gray;
+    margin: 10px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 5px;
+}
+
+.float-left {
+    float: left;
+    margin-left: 5px;
+}
+
+.content {
+    width: 50%;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.benefits {
+    float:right;
+    margin: 0 1.5%;
+    width: 30%;
+    padding: 20px;
+    clear: both;
+    height: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.footer{
+    background-color: aquamarine;
+    color: grey;
+    border-top: solid rgb(205, 205, 240) 5px;
+    position: fixed;
+    display: block;
+    bottom: 0px;
+    left: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
